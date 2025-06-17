@@ -19,8 +19,8 @@ const hundreds = 1000000
 // console.log(Math);
 // console.log(Math.abs(-4));   minus value postive
 // console.log(Math.round(4.6)); 
-// console.log(Math.ceil(4.2));
-// console.log(Math.floor(4.9));
+// console.log(Math.ceil(4.2));  4 se zyada top value
+// console.log(Math.floor(4.9));  4 se lega
 // console.log(Math.min(4, 3, 6, 8));
 // console.log(Math.max(4, 3, 6, 8));
 
