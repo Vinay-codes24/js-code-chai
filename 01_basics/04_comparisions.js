@@ -9,3 +9,7 @@ console.log(null >= 0);  // true
 convert null to a number treating it as 0 .. equality doesnt == */
 
 console.log(undefined == 0); // true with any operations
+
+// === conversion stop
+console.log("2"===2);
+
