@@ -9,7 +9,7 @@ tinderUser.name = "sammy"
 // console.log(tinderUser);
 
 const regularUser = {
-email = "some@gmail.com";
+email = "some@gmail.com" ,
 fullname: {
 userfullname :{
     firstname: "vinay",
