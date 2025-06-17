@@ -25,8 +25,11 @@ console.log(Jsuser[MySym]);
 Jsuser.email = "vinay@chatgpt.com" // over write
 Object.freeze(Jsuser) // freezes
 
+Jsuser.greeting = function(){
+    console.log(`hellow JS user ${this.email} `);
+}
 
-
+consolelog(Jsuser.greeting()); // function
 
 
 
