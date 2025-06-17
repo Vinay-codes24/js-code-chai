@@ -42,3 +42,24 @@ return
 // console.log(loginUserMessage("hitesh"))
 console.log(loginUserMessage())
 // agr kuch pass hi nakre toh undefined aata hain
+
+function calculateCartPrice(val1 , val2, ...num1){
+ return num1
+}   //rest ya spread bolte depend on use
+// suru ke 2 value aur last waalae array
+
+console.log(calculateCartPrice(200 , 300 ,509 , 500))
+
+const user = {
+  username: "hitesh" ,
+  price : 685
+}
+
+function handleObjects(anyobject){
+  console.log(`username is ${anyobject} and price is ${anyobject.price}`);
+  
+}
+handleObjects({
+  username: sayMyName,
+  price: 399
+})
