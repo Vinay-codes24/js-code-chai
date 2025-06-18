@@ -41,5 +41,24 @@ other all are turthy values
 some truth values suprises are 
 "0" , 'false' , " " , {} , {} , function(){} 
 */
-const emptyObj
+const emptyObj = {}
+
+if (Object.keys(emptyObj).length === 0){
+    console.log(`object is empty`);
+    
+}    // to hceck object is empty or not
+
+// Nullsih Coalescing Operator (??) : nulll undefined
+
+let val1;
+// val1 = 5 ?? 10
+
+// val1 = null ?? 10  // it will give now 10 as /// detects null
+//  val1 = undefined ?? 15 // 15
+val1 = null ?? 10 ?? 20 // first value get assign 10
+
+
+
+console.log(val1);
+
 
