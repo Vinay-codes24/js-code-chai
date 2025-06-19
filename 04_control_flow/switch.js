@@ -61,4 +61,11 @@ val1 = null ?? 10 ?? 20 // first value get assign 10
 
 console.log(val1);
 
+// Terniary Operator
+
+// conditon ? true : false
+
+const iceTeaPrice = 100
+iceTeaPrice >= 80 ?  console.log("less than 80"): console.log("more than 80");
+
 
