@@ -16,8 +16,12 @@ const xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function(){
  console.log(xhr.readyState);
  if(xhr.readyState === 4){
-  console.log(this.responseText);
-  
+  console.log(this.responseText); // this lgana pdega
+   const data = JSON.parse(this.responseText)
+   console.log(typeof data);
+   console.log(data.followers);
+   
+   
  }
 }
 
